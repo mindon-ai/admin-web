@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Next.js
+.next/
+out/
+build/
+
+# local environment and secrets
+.env*
+!.env.example
+
+# deployment
+.vercel/
+.wrangler/
+
+# generated
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# editor / OS
+.DS_Store
+.vscode/
